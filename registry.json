@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hono-starter",
+    "name": "Hono Starter",
+    "version": "1.0.0",
+    "description": "A minimal Hono web tap with an app page and a docs page.",
+    "author": "TAPs",
+    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "subdir": "templates/hono-starter",
+    "tags": [
+      "template",
+      "bun",
+      "hono"
+    ],
+    "runtime": "bun",
+    "tapsJson": "https://raw.githubusercontent.com/kojo-jeffery/taps.engine/main/templates/hono-starter/taps.json",
+    "icon": "",
+    "verified": false
+  },
+  {
+    "id": "line-stream",
+    "name": "LineStream",
+    "version": "1.0.0",
+    "description": "Registers network or serial devices and authenticates cards and tags through a persistent scanner request. Built in.",
+    "author": "TAPs",
+    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "tags": [
+      "devices",
+      "scanner"
+    ],
+    "runtime": "module",
+    "tapsJson": "",
+    "icon": "",
+    "verified": false,
+    "builtin": true
+  },
+  {
+    "id": "php-starter",
+    "name": "PHP Starter",
+    "version": "1.0.0",
+    "description": "A plain PHP tap with no framework and no install step.",
+    "author": "TAPs",
+    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "subdir": "templates/php-starter",
+    "tags": [
+      "template",
+      "php"
+    ],
+    "runtime": "frankenphp",
+    "tapsJson": "https://raw.githubusercontent.com/kojo-jeffery/taps.engine/main/templates/php-starter/taps.json",
+    "icon": "",
+    "verified": false
+  },
+  {
+    "id": "pulse-link",
+    "name": "PulseLink",
+    "version": "0.1.0",
+    "description": "Shell libraries for the life of a cloud VM: create, boot, storage and delete, run from TAPs with live output. Built in.",
+    "author": "TAPs",
+    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "tags": [
+      "servers",
+      "scripts"
+    ],
+    "runtime": "module",
+    "tapsJson": "",
+    "icon": "",
+    "verified": false,
+    "builtin": true
+  },
+  {
+    "id": "sky-flow",
+    "name": "SkyFlow",
+    "version": "0.1.0",
+    "description": "A catalogue of Docker stacks (Grafana, Redis, Supabase and more) you can start, stop and watch from TAPs. Built in.",
+    "author": "TAPs",
+    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "tags": [
+      "docker",
+      "stacks"
+    ],
+    "runtime": "module",
+    "tapsJson": "",
+    "icon": "",
+    "verified": false,
+    "builtin": true
+  },
+  {
+    "id": "sprint-shells",
+    "name": "SprintShells",
+    "version": "0.1.0",
+    "description": "Project templates and the nix-shell projects made from them. Built in.",
+    "author": "TAPs",
+    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "tags": [
+      "projects",
+      "templates"
+    ],
+    "runtime": "module",
+    "tapsJson": "",
+    "icon": "",
+    "verified": false,
+    "builtin": true
+  },
+  {
+    "id": "static-starter",
+    "name": "Static Starter",
+    "version": "1.0.0",
+    "description": "A zero build static tap served straight from its folder.",
+    "author": "TAPs",
+    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "subdir": "templates/static-starter",
+    "tags": [
+      "template",
+      "static"
+    ],
+    "runtime": "static",
+    "tapsJson": "https://raw.githubusercontent.com/kojo-jeffery/taps.engine/main/templates/static-starter/taps.json",
+    "icon": "",
+    "verified": false
+  }
+]
