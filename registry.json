@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "description": "A minimal Hono web tap with an app page and a docs page.",
     "author": "TAPs",
-    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "repo": "https://github.com/kojo-jeffery/taps.store",
     "subdir": "templates/hono-starter",
     "tags": [
       "template",
@@ -13,7 +13,7 @@
       "hono"
     ],
     "runtime": "bun",
-    "tapsJson": "https://raw.githubusercontent.com/kojo-jeffery/taps.engine/main/templates/hono-starter/taps.json",
+    "tapsJson": "https://raw.githubusercontent.com/kojo-jeffery/taps.store/main/templates/hono-starter/taps.json",
     "icon": "",
     "verified": false
   },
@@ -40,14 +40,14 @@
     "version": "1.0.0",
     "description": "A plain PHP tap with no framework and no install step.",
     "author": "TAPs",
-    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "repo": "https://github.com/kojo-jeffery/taps.store",
     "subdir": "templates/php-starter",
     "tags": [
       "template",
       "php"
     ],
     "runtime": "frankenphp",
-    "tapsJson": "https://raw.githubusercontent.com/kojo-jeffery/taps.engine/main/templates/php-starter/taps.json",
+    "tapsJson": "https://raw.githubusercontent.com/kojo-jeffery/taps.store/main/templates/php-starter/taps.json",
     "icon": "",
     "verified": false
   },
@@ -108,14 +108,14 @@
     "version": "1.0.0",
     "description": "A zero build static tap served straight from its folder.",
     "author": "TAPs",
-    "repo": "https://github.com/kojo-jeffery/taps.engine",
+    "repo": "https://github.com/kojo-jeffery/taps.store",
     "subdir": "templates/static-starter",
     "tags": [
       "template",
       "static"
     ],
     "runtime": "static",
-    "tapsJson": "https://raw.githubusercontent.com/kojo-jeffery/taps.engine/main/templates/static-starter/taps.json",
+    "tapsJson": "https://raw.githubusercontent.com/kojo-jeffery/taps.store/main/templates/static-starter/taps.json",
     "icon": "",
     "verified": false
   }

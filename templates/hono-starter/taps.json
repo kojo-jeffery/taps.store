@@ -1,0 +1,19 @@
+{
+  "id": "hono-starter",
+  "name": "Hono Starter",
+  "version": "1.0.0",
+  "description": "A minimal Hono web tap with an app page and a docs page.",
+  "runtime": "bun",
+  "install": ["bun install"],
+  "start": "bun src/index.ts",
+  "port": 0,
+  "health": { "path": "/", "timeoutMs": 30000 },
+  "pages": [
+    { "name": "App", "path": "/" },
+    { "name": "Docs", "path": "/docs" }
+  ],
+  "shareable": true,
+  "abilities": ["hono-starter:open"],
+  "env": {},
+  "dev": { "restart": ["package.json"], "hot": ["src/**"] }
+}

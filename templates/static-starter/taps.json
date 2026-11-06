@@ -1,0 +1,17 @@
+{
+  "id": "static-starter",
+  "name": "Static Starter",
+  "version": "1.0.0",
+  "description": "A zero build static tap served straight from its folder.",
+  "runtime": "static",
+  "port": 0,
+  "health": { "path": "/", "timeoutMs": 30000 },
+  "pages": [
+    { "name": "App", "path": "/" },
+    { "name": "Docs", "path": "/docs" }
+  ],
+  "shareable": true,
+  "abilities": ["static-starter:open"],
+  "env": {},
+  "dev": { "restart": [], "hot": [] }
+}

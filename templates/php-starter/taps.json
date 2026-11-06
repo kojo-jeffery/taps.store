@@ -1,0 +1,15 @@
+{
+  "id": "php-starter",
+  "name": "PHP Starter",
+  "version": "1.0.0",
+  "description": "A plain PHP tap with no framework and no install step.",
+  "runtime": "frankenphp",
+  "start": "frankenphp php-server --listen 127.0.0.1:$PORT --root .",
+  "port": 0,
+  "health": { "path": "/", "timeoutMs": 30000 },
+  "pages": [{ "name": "App", "path": "/" }],
+  "shareable": true,
+  "abilities": ["php-starter:open"],
+  "env": {},
+  "dev": { "restart": [], "hot": ["*.php"] }
+}
